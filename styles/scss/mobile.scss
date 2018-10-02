@@ -84,10 +84,13 @@
 }
 
 @media only screen and (max-width:695px) {
-	footer div.wrapper div.container div.inner-container a,
-	footer div.wrapper div.container div.inner-container p {
-		margin:1em 1em;
+	footer div.wrapper div.container div.inner-container a.footer-item,
+	footer div.wrapper div.container div.inner-container p.footer-item {
+		display:block;
+		margin-top:0.7em;
 	}
+
+
 }
 
 
