@@ -15,7 +15,6 @@
 }
 
 @media only screen and (max-width:917px) {
-
 	footer div.wrapper div.container {
 		text-align:center;
 	}
@@ -74,20 +73,27 @@
 		width:100%;
 	}
 
-}
-
-@media only screen and (max-width:695px) {
-	footer div.wrapper div.container div.inner-container a.footer-item,
-	footer div.wrapper div.container div.inner-container p.footer-item {
-		display:block;
-		margin-top:0.7em;
-	}
-
 	img.simplete-logo {
 		width:30vw;
 	}
 
+}
 
+@media only screen and (max-width:695px) {
+	footer div.wrapper div.container {
+		margin-top: -1em;
+	}
+
+	footer div.wrapper div.container div.inner-container {
+		margin-top:-2em;
+		margin-bottom:2em;
+	}
+
+	footer div.wrapper div.container div.inner-container a.footer-item,
+	footer div.wrapper div.container div.inner-container p.footer-item {
+		display:block;
+		margin:0.5em 0;
+	}
 }
 
 
