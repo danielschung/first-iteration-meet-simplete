@@ -12,7 +12,8 @@ section.intro div.container {
 
 p.zip-text {
 	color:$purple;
-	font-family:$light;
+	font-family:$font;
+	font-weight:$light;
 	font-size:1.125em;
 	margin-top:4.1875em;
 }
@@ -33,7 +34,8 @@ input {
 
 input[type="text"] {
 	color:$purple;
-	font-family:$strong;
+	font-family:$font;
+	font-weight:$strong;
 	font-size:1em;
 	padding-left:2.0625em;
 }
@@ -51,7 +53,8 @@ button.zipcode-button {
 	border:1px solid $purple-clear;
 	border-radius:0 0.3125em 0.3125em 0;
 	color:$white;
-	font-family:$strong;
+	font-family:$font;
+	font-weight:$strong;
 	padding:1.3125em 2.0625em;
 	width:145px;
 	margin-left:-0.3em;
